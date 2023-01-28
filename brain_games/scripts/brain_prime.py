@@ -28,7 +28,7 @@ def main():
 
     while k <= 5:
         x = random.randint(2, lim_x)
-        print(f'Quetion: {x}')
+        print(f'Question: {x}')
         answer = prompt.string('Your answer: ')
         rez = prime(x)
 

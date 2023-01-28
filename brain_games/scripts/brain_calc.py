@@ -21,7 +21,7 @@ def main():
         z = random.choice(string)
         x = random.randint(1, 40)
         y = random.randint(1, 20)
-        print(f'Quetion: {x} {z} {y}')
+        print(f'Question: {x} {z} {y}')
         answer = prompt.string('Your answer: ')
         if z == '*':
             rez = x * y

@@ -32,7 +32,7 @@ def main():
     print('Answer "yes" if the number is even, otherwise answer "no"')
 
     for k in number:
-        print(f'Quetion: {k}')
+        print(f'Question: {k}')
         answer = prompt.string('Your answer: ')
         if proverka(k, answer) == 'false':
             return print(f'"{answer}" is wrong answer ;(.'
