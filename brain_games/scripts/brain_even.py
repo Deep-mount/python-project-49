@@ -36,7 +36,8 @@ def main():
         answer = prompt.string('Your answer: ')
         if proverka(k, answer) == 'false':
             return print(f'"{answer}" is wrong answer ;(.'
-                         f' Correct answer was "{even(k)}".')
+                         f' Correct answer was "{even(k)}".\n'
+                         f"Let's try again, {name}!")
         else:
             print('Correct!')
 
