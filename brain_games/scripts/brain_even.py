@@ -29,7 +29,7 @@ def proverka(x, answer):
 
 def main():
     name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
     for k in number:
         print(f'Question: {k}')
