@@ -24,7 +24,7 @@ def main():
     k = 1
     print('Find the greatest common divisor of given numbers.')
 
-    while k <= 5:
+    while k <= 3:
         x = random.randint(1, lim_x)
         y = random.randint(1, lim_y)
         print(f'Question: {x} {y}')
