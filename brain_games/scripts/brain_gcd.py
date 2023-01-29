@@ -27,7 +27,7 @@ def main():
     while k <= 5:
         x = random.randint(1, lim_x)
         y = random.randint(1, lim_y)
-        p{name}rint(f'Question: {x} {y}')
+        print(f'Question: {x} {y}')
         answer = prompt.string('Your answer: ')
         rez = nod(x, y)
 
