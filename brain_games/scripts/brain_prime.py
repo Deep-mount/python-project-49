@@ -24,7 +24,7 @@ def main():
     name = welcome_user()
     lim_x = 100
     k = 1
-    print('Answer "yes" if given number is prime. Otherwise answer "no"')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     while k <= 5:
         x = random.randint(2, lim_x)
