@@ -26,7 +26,7 @@ def main():
     k = 1
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
-    while k <= 5:
+    while k <= 3:
         x = random.randint(2, lim_x)
         print(f'Question: {x}')
         answer = prompt.string('Your answer: ')
