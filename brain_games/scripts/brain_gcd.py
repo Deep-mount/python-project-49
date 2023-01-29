@@ -10,11 +10,11 @@ def welcome_user():
 
 
 def nod(n_1, n_2):
-    k = n_1
-    while k > 0:
+    i = n_1
+    while i > 0:
         if (n_2 % k == 0) and (n_1 % k == 0):
-            return k
-        k -= 1
+            return i
+        i -= 1
 
 
 def main():
@@ -27,7 +27,7 @@ def main():
     while k <= 5:
         x = random.randint(1, lim_x)
         y = random.randint(1, lim_y)
-        print(f'Question: {x} {y}')
+        p{name}rint(f'Question: {x} {y}')
         answer = prompt.string('Your answer: ')
         rez = nod(x, y)
 
