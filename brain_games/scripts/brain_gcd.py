@@ -12,7 +12,7 @@ def welcome_user():
 def nod(n_1, n_2):
     i = n_1
     while i > 0:
-        if (n_2 % k == 0) and (n_1 % k == 0):
+        if (n_2 % i == 0) and (n_1 % i == 0):
             return i
         i -= 1
 
